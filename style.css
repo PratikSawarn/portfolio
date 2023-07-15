@@ -1,0 +1,389 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+/* #DEB992 for text, for buttons #1BA098 */
+}
+
+.hero{
+    height: 120vh;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:18px 35px;
+    background-color: #fff;
+}
+.container h1 a{
+    text-decoration: none;
+    color: rgb(252, 236, 4);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+nav ul li{
+    display: inline-block;
+    padding:0 25px;
+
+}
+nav ul li a{
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.head{
+    margin-top: 12vh;
+    width: 100%;
+    padding: 0 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head-text,.devlopment{
+    width: 45%;
+}
+.head-text h3{
+    color: #000;
+    font-size: 18px;
+    font-family:'Josefin Sans', sans-serif ;
+    font-weight: 300;
+}
+.head-text h3 span{
+    font-size: 50px;
+    color: #000;
+    display: inline-block;
+    font-family:'Josefin Sans', sans-serif ;
+}
+.head-text p{
+    color: #212121;
+    font-family: 'Poppins', sans-serif;
+}
+.head-text .head-btn{
+    margin-top: 24px;
+}
+.head-text .head-btn a{
+    text-decoration: none;
+    color: orange;
+    /* background-color: #d44309f4; */
+    padding: 13px 19px;
+    border-radius: 18px ;
+    border: 2px solid rgb(252, 236, 4);
+}
+.devlopment{
+    text-align: right;
+}
+.devlopment img{
+    overflow: hidden;
+    width: 110%;
+    opacity: 100%;
+    /* height: 100%; */
+}
+.about{
+    width: 100%;
+    display: flex;
+    background-color: rgb(252, 236, 4);
+}
+.about-main{
+    padding: 80px 0;
+    width: 90%;
+    display: block;
+    margin: auto;
+    justify-content: center;
+}
+.about-main .heads{
+    
+    background-color: #000;
+    padding: 15px 0;
+    border-radius: 20px 20px 0 0;
+}
+.about-main h2{
+    font-size: 40px;
+    padding-left: 22px;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+.about-content{
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    padding: 18px 28px;
+    padding-top: 80px ;
+    text-align: left;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+}
+.about-image img{
+    width: 350px;
+    height: 350px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% !important;
+    filter: grayscale(1.5);
+    object-fit: cover;
+}
+.about-text{
+    margin-left: 70px;
+}
+.about-text h5{
+    color: #000;
+    font-size: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.about-text p{
+    padding:34px 10px;
+    color: #212121;
+    font-family:'Poppins', sans-serif ;
+    word-spacing: 2px;
+}
+.workflow{
+    display: flex;
+    margin: auto;
+}
+.workflow-hero{
+    width: 90%;
+    /* align-items: center; */
+    display: inline-flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 80px;
+    position: relative;
+    
+}
+.hero-tag{
+    width: 100%;
+    
+}
+.hero-tag h2{
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif ;
+    font-weight: 800;
+    font-size: 40px;
+    position: sticky;
+    padding: 20px 0;
+    top: 0;
+
+}
+.workflow-cards{
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 24px;
+    padding: 48px;
+    background-color: #000;
+    border-radius: 24px;
+    position: sticky;
+    top: 0;
+}
+
+.workflow-cards:nth-child(even){
+    background-color:rgb(252, 236, 4) ;
+    color: #000;
+}
+.workflow-cards h3{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.workflow-cards p{
+    font-family: 'Poppins', sans-serif ;
+}
+
+/* services section-------------- */
+
+.services{
+    margin-top: 60px;
+    padding: 60 30px;
+    display: flex;
+    width: 100%;
+    /* height: 100vh; */
+    background-color:rgb(252, 236, 4);
+}
+.services-content{
+    display: block;
+    width: 90%;
+    margin: 70px auto;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+.services-content #service-main{
+    display: flex;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif ;
+    justify-content: center;
+    padding-top:45px ;
+    padding-bottom: 70px;
+}
+.services-cards{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.services-card{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.services-card .services-card-tag{
+    font-family: 'Josefin Sans', sans-serif;
+    justify-content: center;
+    width: 100%;
+    padding: 30px 40px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 30px 30px 0 0;
+}
+.services-offer{
+    padding: 22px 30px;
+    background-color: #fff;
+    border-radius:  0 0 30px 30px;
+}
+.services-offer h4{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: left;
+    font-size: 18px;
+}
+.services-offer ul li{
+    text-decoration: none;
+    list-style: decimal;
+    text-align: left;
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 400;
+    padding: 8px 0;
+}
+
+
+
+/* -----------projects section  ---------------- */
+
+.projects{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+}
+.project-hero{
+    width: 100%;
+    display: block;
+    justify-content: center;
+
+}
+.projects-head{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.projects-head h2{
+    font-size: 40px;
+}
+.project-cards{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.projects-hero-card{
+    width: 30%;
+    padding: 15px;
+    display: block;
+    /* border: 1px solid #000; */
+    border-radius: 12px;
+    background-color: #100c08;
+    color: #fff;
+}
+.projects-hero-card h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+.projects-hero-card p{
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 300;
+    color: #e8e8e8f3;
+}
+.projects-hero-card img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* ------contact section--- */
+
+.contact{
+    margin: 120px 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.hero-contact{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.contact-text{
+    width: 50%;
+}
+.contact-text h2{
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 50px;
+}
+.contact-text p{
+    color: #212121;
+    font-size: 35px;
+    font-family:'Poppins', sans-serif ;
+}
+.contact-form{
+    background-color:rgb(252, 236, 4);
+    width: 40%;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form{
+    margin-top: 50px;
+}
+.contact-form h2{
+    font-family:'Josefin Sans', sans-serif;
+    margin: 8px;
+}
+.contact-form label{
+    color: #fff;
+    justify-content: left;
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 600;
+}
+.contact-form input ,textarea{
+    width: 70%;
+    padding: 10px 18px;
+    margin: 16px 8px;
+    border: none;
+    background: transparent;
+    border-bottom: 0.5px solid #000;
+    outline: none;
+    display: block;
+}
+
+/* --------footer-------- */
+footer{
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    justify-content: center;display: flex;
+    padding: 30px 0;
+}
+footer h2{
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+}
+footer p{
+    font-family: 'Poppins', sans-serif ;
+    color: #fff;
+}
