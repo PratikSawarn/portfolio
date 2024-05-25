@@ -1,4 +1,4 @@
-# NextJS 14 Template
+# NextJS 14 Portfolio Template
 
 **Features**
 
@@ -7,6 +7,7 @@
 3. Format and Lint checks before commit
 4. Build check before push
 5. Customized eslint configuration
+6. Latest design portfolio
 
 **Includes**
 
